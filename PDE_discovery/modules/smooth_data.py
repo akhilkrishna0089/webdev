@@ -6,7 +6,7 @@ from helpers import *
 
 class Smoother:
 
-    def __init__(self,method):
+    def __init__(self,method,params):
         self.method = method
         self.params = params
     def smooth(self,u,x,t):
